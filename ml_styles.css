@@ -1,0 +1,112 @@
+/*
+	My Life Styles
+	Tutorial 3
+	Name: Adrian Pilkington
+	Date: April 12, 2017
+		
+	Filename: ml_styles.css
+*/
+
+/* BODY STYLES */
+
+body {
+	font-family: 'Times New Roman', Arial, sans-serif;
+}
+
+
+/* HEADING STYLES */
+
+section h1 {
+	background-color: rgb(118, 148, 198);
+	color: white;
+	font-size: 18pt;
+	font-weight: normal;
+	font-family: Arial, sans-serif;
+	text-indent: 10px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	word-spacing: 5px;
+}
+
+h2 {
+	background-color: rgb(118, 148, 198);
+	color: white;
+	font-size: 14pt;
+	font-weight: normal;
+	font-family: Arial, sans-serif;
+	text-indent: 10px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	word-spacing: 5px;
+}
+
+/* FIGURE STYLES */
+
+figure {
+	text-align: center;
+}
+
+#demsfigure {
+	text-align: center;
+	background-color: rgb(250, 210, 209)
+}
+
+#booksfigure {
+	text-align: center;
+	background-color: rgb(190, 205, 228)
+}
+
+/* NAVIGATION LIST STYLES */
+
+nav ul {
+	background-color: rgb(248, 190, 188);
+	line-height: 5em;
+	list-style-type: none;
+	font-family: Arial, sans-serif;
+	font-size: 14pt;
+	}
+
+nav ul li:first-of-type {
+	text-transform: uppercase;
+}
+
+nav ul li:hover {
+	background-color: rgb(250, 210, 209);
+	list-style-image: url(actualbullet.fw.png)
+}
+
+nav ul a {
+	color: rgb(255, 228, 225);
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: black;
+}
+
+/* SECTION STYLES */
+
+section {
+	text-align: justify;
+}
+
+
+section h2+ul {
+	list-style-image: url(actualbullet.fw.png);
+}
+
+strong.keyword {
+	color: rgb(186, 171, 193);
+}
+
+/* FOOTER STYLES */
+
+footer address {
+	background-color: white;
+	font-style: normal;
+	font-variant: small-caps; 
+	font-size: 0.8em;
+	line-height: 4em;
+	font: Arial, sans-serif;
+	text-align: center;
+}
